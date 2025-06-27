@@ -1,3 +1,5 @@
+use anyhow::bail;
+
 fn main() {
-    println!("Hello, world!");
+	bail!("Will error");
 }
